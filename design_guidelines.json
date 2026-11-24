@@ -1,0 +1,395 @@
+{
+  "project_name": "Açaiteria Digital Menu",
+  "brand_name": "Açaiteria",
+  "brand_tagline": "Açaí puro da Amazônia, cremoso e preparado na hora",
+  "app_type": "digital menu / food ordering landing page",
+  "target_audience": "Lovers of authentic Brazilian açaí, health-conscious foodies, dessert seekers looking for quick online ordering via WhatsApp",
+  "business_pivot_context": {
+    "previous_identity": "Forno & Fuoco (Italian rustic pizzeria, wood-fire, cream/green/burnt-red, Playfair Display)",
+    "new_identity": "Açaiteria (100% açaí shop, authentic Brazilian Amazonian vibrancy, deep purple, creamy cashew/condensed milk whites, guarana warm amber & fresh lime accents, modern artisanal typography)",
+    "whatsapp_checkout_phone": "+55 91 9171-1504",
+    "delivery_city": "Belém / Região Metropolitana · Brasil (DDD 91)",
+    "menu_focus": "Exclusively açaí products (500ml Individual and 1L Família) with customizable paid toppings and extras"
+  },
+  "design_decisions": {
+    "emotional_archetype": "ARCHETYPE 1 + ARCHETYPE 5 FUSION: Tropical Amazonian Craft meets Modern Berry Luxury (rich velvet açaí purple depths, crisp fresh contrasts, inviting tactile warmth)",
+    "theme": "Light theme default with deep jewel-toned berry accents and high-contrast surfaces",
+    "typography": {
+      "headline_font": "Cabinet Grotesk or Outfit (Display Sans with bold organic personality, wide stance, tight tracking), paired with Cormorant Garamond / Syne for editorial flair",
+      "google_fonts_embed": "https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap",
+      "font_family_tokens": {
+        "heading": "'Outfit', -apple-system, BlinkMacSystemFont, sans-serif",
+        "body": "'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif",
+        "mono": "'JetBrains Mono', monospace"
+      },
+      "scale_hierarchy": {
+        "h1_hero": "text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[0.95]",
+        "h2_section": "text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight",
+        "h3_card_title": "text-xl sm:text-2xl font-bold tracking-tight",
+        "h4_widget_title": "text-lg sm:text-xl font-bold",
+        "subtitle": "text-lg sm:text-xl font-normal leading-relaxed text-purple-900/75",
+        "body": "text-base font-normal leading-relaxed text-purple-950/80",
+        "caption_overline": "text-xs font-mono font-semibold uppercase tracking-[0.2em] text-purple-600"
+      }
+    },
+    "colors": {
+      "base_palette": {
+        "deep_acai_purple": "#2b0a3d",
+        "acai_berry_dark": "#3b0764",
+        "acai_primary": "#581c87",
+        "acai_vibrant": "#7e22ce",
+        "acai_soft_light": "#fbf7ff",
+        "acai_surface_card": "#ffffff",
+        "acai_border_subtle": "#eedef8",
+        "granola_amber": "#f59e0b",
+        "granola_gold_light": "#fef3c7",
+        "amazon_leaf_green": "#15803d",
+        "lime_fresh_accent": "#84cc16",
+        "leite_ninho_cream": "#fffbeb",
+        "ink_foreground": "#1c0d28"
+      },
+      "css_variables": {
+        "--background": "280 40% 98%",
+        "--foreground": "278 60% 12%",
+        "--card": "0 0% 100%",
+        "--card-foreground": "278 60% 12%",
+        "--popover": "0 0% 100%",
+        "--popover-foreground": "278 60% 12%",
+        "--primary": "276 75% 32%",
+        "--primary-foreground": "0 0% 100%",
+        "--secondary": "280 40% 95%",
+        "--secondary-foreground": "276 75% 24%",
+        "--muted": "280 20% 94%",
+        "--muted-foreground": "276 25% 45%",
+        "--accent": "45 93% 47%",
+        "--accent-foreground": "278 60% 12%",
+        "--border": "280 30% 90%",
+        "--input": "280 30% 88%",
+        "--ring": "276 75% 32%",
+        "--radius": "16px"
+      },
+      "contrast_rules": {
+        "primary_buttons": "Background: #581c87 (Deep Purple) or #7e22ce (Vibrant Purple), Text: #ffffff (White) — contrast ratio > 7:1",
+        "accent_badges": "Background: #fef3c7 (Warm Cream/Gold), Text: #78350f (Dark Amber) or Background: #f3e8ff, Text: #581c87",
+        "headings_on_light": "Color: #2b0a3d (Rich Deep Açaí) on #fbf7ff (Off-white lilac) — APCA contrast passes effortlessly",
+        "hover_states": "hover:bg-purple-900 hover:text-white or hover:border-purple-600 transition-colors"
+      }
+    },
+    "visual_enhancers": {
+      "surface_treatment": "Crisp white cards with 1px border (#eedef8), subtle ambient berry drop-shadow (rgba(88, 28, 135, 0.06)), rounded-2xl corners (16px to 24px)",
+      "badge_treatment": "Pill badges with subtle purple tint and crisp uppercase monospace tracking",
+      "texture": "Clean organic feel with subtle natural lighting and vibrant fruit photography",
+      "marquee_ribbon": "Editorial Ribbon with low contrast lilac-purple background (#f3e8ff) and deep purple text (#4a154b), scrolling smoothly with values: '100% PURO DO PARÁ · POLPA ARTESANAL · ZERO XAROPE ARTIFICIAL · CREMOSIDADE MÁXIMA · ENTREGAS RÁPIDAS VIA WHATSAPP'"
+    },
+    "hero_concept": {
+      "title": "Açaiteria",
+      "eyebrow": "ORIGEM PARÁ · 100% ARTESANAL",
+      "headline_html": "O verdadeiro açaí,<br /><span class=\"text-purple-600 font-extrabold\">cremoso & puro.</span>",
+      "description": "Feito com polpa selecionada da Amazônia, textura aveludada incomparável e os melhores acompanhamentos montados na hora para sua casa.",
+      "badges": [
+        "Direto do Norte (DDD 91)",
+        "Zero Cristais de Gelo",
+        "Montado ao Seu Gosto"
+      ],
+      "hero_visual": "Vibrant hero shot of fresh açaí bowl piled with banana slices, fresh strawberries, crunchy granola, and golden honey/leite condensado drizzle, accompanied by floating craft badges ('100% Puro Pará' and 'Entrega Rápida')",
+      "cta_primary": "Ver Tamanhos e Montar",
+      "cta_secondary": "Fazer Pedido no WhatsApp"
+    },
+    "menu_structure": {
+      "categories": [
+        "Todos os Tamanhos",
+        "Copos e Tigelas",
+        "Tamanho Família"
+      ],
+      "products": [
+        {
+          "id": "acai-500ml",
+          "name": "Açaí Artesanal 500ml",
+          "category": "Copos e Tigelas",
+          "tag": "Individual · Mais Pedido",
+          "size": "500 ml",
+          "price": 28.00,
+          "description": "Porção individual perfeita. Textura cremosa tradicional, servido ultragelado no ponto exato para saborear com seus acompanhamentos preferidos.",
+          "image": "https://images.unsplash.com/photo-1684403731883-67a71a793d2d?crop=entropy&cs=srgb&fm=jpg&w=1000&q=85"
+        },
+        {
+          "id": "acai-1000ml",
+          "name": "Açaí Família 1 Litro",
+          "category": "Tamanho Família",
+          "tag": "1000 ml · Compartilhar",
+          "size": "1 Litro",
+          "price": 48.00,
+          "description": "Pote generoso de 1 litro para dividir com quem você ama. Açaí puro com rendimento generoso para até 3 ou 4 pessoas personalizarem.",
+          "image": "https://images.pexels.com/photos/5150303/pexels-photo-5150303.jpeg?auto=compress&cs=tinysrgb&w=1000"
+        }
+      ],
+      "toppings_list": [
+        {
+          "id": "granola",
+          "name": "Granola Crocante",
+          "price": 4.00,
+          "description": "Mix tostado de cereais, castanhas e sementes douradas"
+        },
+        {
+          "id": "leite-ninho",
+          "name": "Leite Ninho",
+          "price": 5.00,
+          "description": "Camada farta de leite em pó integral de verdade"
+        },
+        {
+          "id": "banana",
+          "name": "Banana Fatiada",
+          "price": 3.00,
+          "description": "Bananas frescas fatiadas na hora"
+        },
+        {
+          "id": "morango",
+          "name": "Morango Fresco",
+          "price": 5.00,
+          "description": "Morangos vermelhos selecionados em cubos"
+        },
+        {
+          "id": "pacoca",
+          "name": "Paçoca de Amendoim",
+          "price": 4.00,
+          "description": "Paçoca artesanal esfarelada crocante"
+        },
+        {
+          "id": "leite-condensado",
+          "name": "Leite Condensado",
+          "price": 4.00,
+          "description": "Fio cremoso e doce na medida certa"
+        }
+      ]
+    },
+    "ordering_flow_guidelines": {
+      "step_1_product_selection": "User views product cards (500ml or 1L). Clicking 'Personalizar & Pedir' opens the Topping Customizer Modal.",
+      "step_2_topping_customizer": "Interactive chip grid where each topping shows its name, price (+ R$ X,XX) and an active checkbox checkmark. Real-time dynamic total calculation shows base price + sum of selected toppings. CTA button: 'Adicionar à Sacola'.",
+      "step_3_cart_drawer": "Slide-in drawer from right (Framer Motion). Lists base size + comma-separated selected toppings, item quantity counters (+ / -), subtotal, fixed delivery fee (R$ 5,00), and bold total. Includes empty state with friendly açaí bowl graphic.",
+      "step_4_delivery_form": "Modal collecting customer's Nome, WhatsApp, Endereço de entrega, Forma de Pagamento (Pix, Cartão na entrega, Dinheiro), and Observações.",
+      "step_5_whatsapp_checkout": "Generates a pre-formatted Brazilian WhatsApp message and redirects to https://wa.me/559191711504?text=... followed by a celebration confirmation modal."
+    }
+  },
+  "image_urls": {
+    "hero_featured": {
+      "url": "https://images.unsplash.com/photo-1684403731883-67a71a793d2d?crop=entropy&cs=srgb&fm=jpg&w=1200&q=85",
+      "description": "Açaí bowl freshly prepared with sliced strawberries, bananas, blueberries, and crunchy golden granola on a bright tabletop",
+      "category": "hero_primary"
+    },
+    "hero_supporting_origin": {
+      "url": "https://images.pexels.com/photos/29942738/pexels-photo-29942738.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "description": "Authentic baskets of freshly harvested açaí berries in Belém do Pará market, highlighting roots and provenance",
+      "category": "story_origin"
+    },
+    "acai_500ml_product": {
+      "url": "https://images.unsplash.com/photo-1684403620650-81dc661a69db?crop=entropy&cs=srgb&fm=jpg&w=1000&q=85",
+      "description": "Individual 500ml açaí bowl topped with sliced banana, fresh berries, chia and toasted granola",
+      "category": "product_card_500ml"
+    },
+    "acai_1000ml_family": {
+      "url": "https://images.pexels.com/photos/5150303/pexels-photo-5150303.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "description": "Rich 1 Litre bowl of deep purple açaí topped with sliced bananas, coconut flakes and hearty granola for sharing",
+      "category": "product_card_1000ml"
+    },
+    "smoothie_detail_bowl": {
+      "url": "https://images.pexels.com/photos/12174224/pexels-photo-12174224.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "description": "Vibrant berry bowl with fresh fruit layers and toppings showcase",
+      "category": "product_detail"
+    },
+    "acai_harvest_detail": {
+      "url": "https://images.pexels.com/photos/6741479/pexels-photo-6741479.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "description": "Fresh ripe açaí berries cluster hanging from palm branch in the Brazilian rainforest",
+      "category": "manifesto_visual"
+    }
+  },
+  "layout_and_components": {
+    "header_nav": {
+      "type": "Crystal Glass Sticky Header",
+      "classes": "sticky top-0 z-50 backdrop-blur-xl bg-purple-950/90 border-b border-purple-800/40 text-white px-6 sm:px-12 py-4 flex items-center justify-between",
+      "brand_mark": "Purple berry icon (✦ or berry circle)",
+      "brand_title": "AÇAITERIA",
+      "brand_subtitle": "Puro & Cremoso",
+      "nav_links": [
+        { "label": "Cardápio", "href": "#menu", "test_id": "menu-nav-link" },
+        { "label": "Origem & Qualidade", "href": "#origem", "test_id": "story-nav-link" },
+        { "label": "Fale Conosco", "href": "#contato", "test_id": "contact-nav-link" }
+      ],
+      "cart_pill": {
+        "classes": "flex items-center gap-2.5 px-4 py-2 rounded-full bg-white text-purple-950 font-semibold text-xs tracking-wide uppercase hover:bg-amber-400 hover:text-purple-950 transition-all shadow-sm",
+        "badge_classes": "bg-purple-700 text-white text-[11px] px-2 py-0.5 rounded-full font-bold",
+        "test_id": "open-cart-button"
+      }
+    },
+    "hero_section": {
+      "layout": "Grid 2-column on desktop (50% copy, 50% visual), 1-column on mobile",
+      "background": "radial-gradient(ellipse at 85% 15%, rgba(126, 34, 206, 0.15) 0%, transparent 50%), radial-gradient(ellipse at 15% 85%, rgba(245, 158, 11, 0.1) 0%, transparent 40%), #fbf7ff",
+      "copy_alignment": "Left-aligned with generous padding (py-16 md:py-24 px-6 md:px-12 lg:px-20)",
+      "eyebrow_classes": "inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-100 text-purple-800 font-mono text-xs font-semibold tracking-wider uppercase mb-6",
+      "h1_classes": "text-4xl sm:text-5xl lg:text-6xl font-black text-purple-950 tracking-tight leading-[1.05] mb-6",
+      "body_classes": "text-base sm:text-lg text-purple-900/80 max-w-lg mb-8 leading-relaxed",
+      "cta_container": "flex flex-wrap items-center gap-4",
+      "primary_btn_classes": "inline-flex items-center gap-3 px-7 py-4 rounded-full bg-purple-700 text-white font-bold text-sm tracking-wide uppercase hover:bg-purple-800 hover:shadow-lg hover:shadow-purple-700/25 transition-all transform hover:-translate-y-0.5",
+      "secondary_btn_classes": "inline-flex items-center gap-2 px-6 py-4 rounded-full border-2 border-purple-300 text-purple-900 font-bold text-sm tracking-wide uppercase hover:border-purple-600 hover:bg-purple-50 transition-all",
+      "visual_classes": "relative flex items-center justify-center p-4 lg:p-8",
+      "main_image_classes": "w-full max-w-[500px] aspect-[4/3] sm:aspect-square object-cover rounded-3xl shadow-2xl shadow-purple-950/20 border-4 border-white transform rotate-1 hover:rotate-0 transition-transform duration-500",
+      "floating_badge_origin": "absolute -bottom-4 -left-2 sm:bottom-6 sm:left-4 bg-white/95 backdrop-blur-md p-4 rounded-2xl shadow-xl border border-purple-100 flex items-center gap-3",
+      "floating_badge_temp": "absolute -top-4 -right-2 sm:top-6 sm:right-4 bg-purple-900 text-white p-3.5 rounded-2xl shadow-xl flex items-center gap-2 text-xs font-mono"
+    },
+    "marquee_ticker": {
+      "classes": "bg-purple-950 text-purple-100 py-3.5 border-y border-purple-800/50 overflow-hidden font-mono text-xs uppercase tracking-widest",
+      "items": [
+        "Açaí 100% Puro do Pará",
+        "Sem Adição de Conservantes",
+        "Cremoso & Gelado",
+        "Acompanhamentos Selecionados",
+        "Entrega Rápida em Belém",
+        "Peça no WhatsApp"
+      ]
+    },
+    "menu_section": {
+      "container": "py-20 md:py-28 px-6 md:px-12 lg:px-20 max-w-7xl mx-auto",
+      "section_header": {
+        "eyebrow": "NOSSO CARDÁPIO",
+        "title": "Escolha o tamanho do seu açaí",
+        "description": "Apenas o melhor açaí da Amazônia. Escolha entre nossa porção individual de 500ml ou o tamanho família de 1 Litro e personalize com seus complementos favoritos."
+      },
+      "card_grid": "grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 max-w-5xl mx-auto",
+      "product_card": {
+        "classes": "group bg-white rounded-3xl p-6 sm:p-8 border border-purple-100 hover:border-purple-300 shadow-md hover:shadow-2xl hover:shadow-purple-900/10 transition-all duration-300 flex flex-col justify-between",
+        "image_wrap": "relative w-full aspect-[4/3] rounded-2xl overflow-hidden mb-6 bg-purple-50",
+        "image_classes": "w-full h-full object-cover group-hover:scale-105 transition-transform duration-500",
+        "badge_size": "absolute top-4 left-4 bg-purple-900/90 backdrop-blur-md text-white text-xs font-mono uppercase px-3.5 py-1.5 rounded-full font-bold tracking-wide",
+        "badge_popular": "absolute top-4 right-4 bg-amber-400 text-amber-950 text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider",
+        "title_classes": "text-2xl sm:text-3xl font-extrabold text-purple-950 mb-3 group-hover:text-purple-700 transition-colors",
+        "desc_classes": "text-purple-900/75 text-sm sm:text-base leading-relaxed mb-6",
+        "price_block": "flex items-center justify-between pt-6 border-t border-purple-100 mt-auto",
+        "price_value": "text-2xl sm:text-3xl font-black text-purple-950 font-mono",
+        "customize_btn": "inline-flex items-center gap-2.5 px-6 py-3.5 rounded-full bg-purple-700 text-white font-bold text-sm hover:bg-purple-800 transition-all shadow-sm hover:shadow-md hover:shadow-purple-700/30"
+      }
+    },
+    "customizer_modal": {
+      "classes": "fixed inset-0 z-50 flex items-center justify-center p-4 bg-purple-950/60 backdrop-blur-sm",
+      "box_classes": "bg-white w-full max-w-xl rounded-3xl shadow-2xl p-6 sm:p-8 max-h-[90vh] overflow-y-auto border border-purple-100",
+      "header_eyebrow": "MONTE SEU AÇAÍ",
+      "title": "Escolha seus Acompanhamentos",
+      "subtitle": "Selecione quantos complementos desejar. Cada item adicionado soma o valor correspondente ao açaí.",
+      "chips_grid": "grid grid-cols-1 sm:grid-cols-2 gap-3.5 my-6",
+      "chip_item": {
+        "inactive": "flex items-center justify-between p-3.5 rounded-2xl border-2 border-purple-100 bg-purple-50/40 hover:border-purple-300 hover:bg-purple-50 text-left transition-all cursor-pointer",
+        "active": "flex items-center justify-between p-3.5 rounded-2xl border-2 border-purple-700 bg-purple-700 text-white shadow-md shadow-purple-700/20 text-left transition-all cursor-pointer",
+        "name_classes": "font-semibold text-sm",
+        "price_classes": "font-mono font-bold text-xs"
+      },
+      "summary_box": "p-4 rounded-2xl bg-purple-50 border border-purple-100 flex items-center justify-between mb-6",
+      "confirm_btn": "w-full py-4 rounded-full bg-purple-700 hover:bg-purple-800 text-white font-bold text-sm tracking-wide uppercase transition-all shadow-md flex items-center justify-center gap-2.5"
+    },
+    "cart_drawer": {
+      "classes": "fixed inset-y-0 right-0 z-50 w-full max-w-md bg-white shadow-2xl p-6 sm:p-8 flex flex-col border-l border-purple-100",
+      "head": "flex items-center justify-between pb-6 border-b border-purple-100",
+      "items_scroll": "flex-1 overflow-y-auto py-6 divide-y divide-purple-100",
+      "item_card": "py-4 flex gap-4 items-start",
+      "footer_summary": "pt-6 border-t border-purple-100 bg-white space-y-3",
+      "checkout_btn": "w-full py-4 rounded-full bg-purple-700 hover:bg-purple-800 text-white font-bold text-sm uppercase tracking-wider flex items-center justify-center gap-2 transition-all shadow-md"
+    },
+    "delivery_checkout_modal": {
+      "classes": "fixed inset-0 z-50 flex items-center justify-center p-4 bg-purple-950/60 backdrop-blur-sm",
+      "box_classes": "bg-white w-full max-w-lg rounded-3xl shadow-2xl p-6 sm:p-8 max-h-[90vh] overflow-y-auto border border-purple-100",
+      "form_fields": [
+        { "name": "name", "label": "Seu Nome Completo", "placeholder": "Ex: Maria Silva", "test_id": "customer-name-input" },
+        { "name": "phone", "label": "WhatsApp / Celular", "placeholder": "(91) 99999-9999", "test_id": "customer-phone-input" },
+        { "name": "address", "label": "Endereço Completo de Entrega", "placeholder": "Rua, número, bairro e referência", "test_id": "customer-address-input" },
+        { "name": "payment", "label": "Forma de Pagamento", "type": "select", "options": ["Pix", "Cartão na Entrega", "Dinheiro"], "test_id": "payment-select" },
+        { "name": "notes", "label": "Observações (Opcional)", "placeholder": "Ex: Pouca calda, caprichar no leite ninho, etc.", "test_id": "order-notes-input" }
+      ],
+      "submit_whatsapp_btn": {
+        "classes": "w-full py-4 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm uppercase tracking-wider flex items-center justify-center gap-2 transition-all shadow-md mt-6",
+        "label": "Enviar Pedido para WhatsApp",
+        "target_phone": "+55 91 9171-1504",
+        "test_id": "whatsapp-submit-button"
+      }
+    },
+    "origin_manifesto_section": {
+      "id": "origem",
+      "classes": "bg-purple-950 text-white py-20 md:py-28 px-6 md:px-12 lg:px-20",
+      "layout": "Grid 2-column: authentic açaí origin image from Belém do Pará + storytelling manifesto copy",
+      "badge": "NOSSA RAIZ",
+      "title": "Açaí de verdade, sem truques ou xarope artificial.",
+      "text": "O açaí paraense é patrimônio cultural do Brasil. Aqui servimos o fruto colhido na bacia amazônica e batido na espessura certa. Cada tigela preserva o sabor genuíno da fruta e a energia que move nossa terra.",
+      "stats": [
+        { "value": "100%", "label": "Polpa selecionada" },
+        { "value": "0%", "label": "Conservantes ou espessantes" },
+        { "value": "15-30m", "label": "Tempo médio de entrega" }
+      ]
+    },
+    "footer": {
+      "classes": "bg-purple-900 text-purple-200 py-16 px-6 md:px-12 lg:px-20 border-t border-purple-800",
+      "brand_info": "Açaiteria · Belém/PA",
+      "address": "Av. Nazaré, 450 — Belém, Pará",
+      "hours": "Segunda a Domingo · 13h às 23h",
+      "whatsapp_link": "https://wa.me/559191711504",
+      "test_id": "site-footer"
+    }
+  },
+  "testing_attributes": {
+    "required_test_ids": [
+      "site-header",
+      "brand-home",
+      "menu-nav-link",
+      "story-nav-link",
+      "contact-nav-link",
+      "open-cart-button",
+      "cart-count",
+      "hero-section",
+      "hero-menu-button",
+      "hero-acai-image",
+      "menu-section",
+      "product-card-acai-500ml",
+      "product-card-acai-1000ml",
+      "customize-acai-500ml",
+      "customize-acai-1000ml",
+      "acai-customizer-modal",
+      "close-acai-customizer-button",
+      "extra-granola",
+      "extra-leite-ninho",
+      "extra-banana",
+      "extra-morango",
+      "extra-pacoca",
+      "extra-leite-condensado",
+      "acai-customizer-total",
+      "add-custom-acai-button",
+      "cart-drawer",
+      "close-cart-button",
+      "cart-item-500ml",
+      "cart-item-1000ml",
+      "start-checkout-button",
+      "empty-cart",
+      "checkout-modal",
+      "close-checkout-button",
+      "customer-name-input",
+      "customer-phone-input",
+      "customer-address-input",
+      "payment-select",
+      "order-notes-input",
+      "whatsapp-submit-button",
+      "confirmation-modal",
+      "confirmation-close-button",
+      "site-footer",
+      "footer-whatsapp-link"
+    ]
+  },
+  "instructions_to_main_agent": [
+    "1. Completely remove all pizza remnants: replace pizza image imports, pizza naming, pizza descriptions ('pomodoro', 'fior di latte', 'forno a lenha', '450°') with authentic açaí shop terminology ('Açaiteria', 'Açaí Puro', 'Acompanhamentos', 'Cremoso', 'Origem Pará').",
+    "2. Update index.css fonts to load Outfit, Plus Jakarta Sans, and JetBrains Mono. Set body background to #fbf7ff and text to #2b0a3d.",
+    "3. Replace color tokens in App.css / index.css: switch from warm Italian beige (#f8f2e8) and tomato red (#e54b35) to rich açaí berry purple (#2b0a3d / #581c87 / #7e22ce) with amber/gold (#f59e0b) and fresh cream accents.",
+    "4. Update the products list in App.js: ONLY açaí items (Açaí 500ml for R$ 28,00 and Açaí Família 1 Litro for R$ 48,00). Keep the paid complement customizer with Granola (R$ 4,00), Leite Ninho (R$ 5,00), Banana (R$ 3,00), Morango (R$ 5,00), Paçoca (R$ 4,00), and Leite Condensado (R$ 4,00).",
+    "5. Maintain all critical flows: Customizer modal with instant sum, cart drawer with item count and remove/qty buttons, checkout delivery modal with client inputs, and WhatsApp redirect to +55 91 9171-1504.",
+    "6. Ensure all data-testid attributes listed in testing_attributes are present on interactive and key elements for test verification."
+  ],
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "Avoid the generic 'AI slop' look. Use vibrant tropical berry purple tones, authentic textures, crisp white cards, and clear typography.",
+    "Do NOT use complete transparent backgrounds for headers, modals, or dropdowns. Always use solid or frosted crystal glass (backdrop-blur-xl bg-purple-950/90 or bg-white/95).",
+    "Do NOT use 'transition: all'. Apply specific transitions for interactive states (e.g. transition: transform 0.2s ease, background-color 0.2s ease).",
+    "Ensure high contrast on all text: white text on purple/emerald buttons, deep purple (#2b0a3d) on light lilac backgrounds.",
+    "All buttons, chips, inputs, links, and drawers must include their designated data-testid attributes."
+  ]
+}
